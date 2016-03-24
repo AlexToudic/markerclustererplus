@@ -1672,3 +1672,8 @@ if (typeof String.prototype.trim !== 'function') {
   };
 }
 
+module.exports = {
+    ClusterIcon: ClusterIcon,
+    Cluster: Cluster,
+    MarkerClusterer: MarkerClusterer
+};
