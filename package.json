@@ -1,6 +1,6 @@
 {
-  "name": "@alex_toudic/markerclustererplus",
-  "version": "2.1.7",
+  "name": "@bigyouth/markerclustererplus",
+  "version": "2.1.8",
   "keywords": [
     "markerclustererplus",
     "google",
@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:AlexToudic/markerclustererplus.git"
+    "url": "git@github.com:BigYouth/markerclustererplus.git"
   },
   "main": "src/markerclusterer.js",
   "scripts": {
