@@ -340,8 +340,8 @@ ClusterIcon.prototype.createCss = function (pos) {
  */
 ClusterIcon.prototype.getPosFromLatLng_ = function (latlng) {
   var pos = this.getProjection().fromLatLngToDivPixel(latlng);
-  pos.x -= this.anchorIcon_[1];
-  pos.y -= this.anchorIcon_[0];
+  pos.x -= this.anchorIcon_[0];
+  pos.y -= this.anchorIcon_[1];
   pos.x = parseInt(pos.x, 10);
   pos.y = parseInt(pos.y, 10);
   return pos;
