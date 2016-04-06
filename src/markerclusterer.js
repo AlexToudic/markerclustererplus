@@ -259,8 +259,8 @@ ClusterIcon.prototype.show = function () {
     img += "'>";
     this.div_.innerHTML = img + "<div style='" +
         "position: absolute;" +
-        "top: " + this.anchorText_[0] + "px;" +
-        "left: " + this.anchorText_[1] + "px;" +
+        "top: " + this.anchorText_[1] + "px;" +
+        "left: " + this.anchorText_[0] + "px;" +
         "color: " + this.textColor_ + ";" +
         "font-size: " + this.textSize_ + "px;" +
         "font-family: " + this.fontFamily_ + ";" +
@@ -296,7 +296,7 @@ ClusterIcon.prototype.useStyle = function (sums) {
   this.height_ = style.height;
   this.width_ = style.width;
   this.anchorText_ = style.anchorText || [0, 0];
-  this.anchorIcon_ = style.anchorIcon || [parseInt(this.height_ / 2, 10), parseInt(this.width_ / 2, 10)];
+  this.anchorIcon_ = style.anchorIcon || [parseInt(this.width_ / 2, 10), parseInt(this.height_ / 2, 10)];
   this.textColor_ = style.textColor || "black";
   this.textSize_ = style.textSize || 11;
   this.textDecoration_ = style.textDecoration || "none";
